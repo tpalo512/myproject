@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!-- CSS Stylesheets with Relative Paths -->
+
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets with Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+  <style>
+
+    header {
+      background-color: #333333;
+    }
+
+    h1 {
+      margin-bottom: 15px;
+      font-size: 28px;
+      color: #eee;
+      text-align: center;
+      text-decoration: underline;
+      background-color: black;
+    }
+  
+    h2 {
+      margin: 0 auto;
+      margin-top: 40px;
+      width: 1024px;
+      font-size: 24px;
+      text-align: bottom:center;
+      position: absolute;
+      color: cornsilk;
+    }
+  
+    h3 {
+      margin-top: 15px;
+      margin-bottom: 15px;
+      font-size: 24px;
+      text-align: left;
+      width: 30%;
+      line-height: 1.5;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      color: #333333;
+      font-size: 20px;
+      text-align: left;
+    }
+  
+    p {
+    text-align: center;
+    font-size: 20px;
+    width: 70%;
+  }
+    <ul>{
+      float: left;
+    }
+
+    img {
+      margin-left: auto;
+      margin-right: 50px;
+      margin-bottom: 50px;
+      display: block;
+      border: 10px solid steelblue;
+      float: left
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Student Bio</h1>
+  </header>
+
+  <main class="container">
+    <section id="main-bio">
+      <section id="figure">
+        <h2 id="bio-name">Tricia Palomino</h2>
+        <img id="bio-image" src="images/ProPhoto.jpg" width="200" height="300" alt="Tricia Palomino">
+      </section>
+      <p> A seasoned executive support person currently undergoing a career transition into data analytics and visualization. I possess an extensive background in business administration ranging from startups to Fortune 500 C-suite support of operations in various industries; millwright, construction, manufacturing, hospitality, and facilities services.</a></p>
+    </section>
+
+    <aside id="contact-info">
+      <h3>Contact Info</h3>
+      <ul>
+        <li><strong>Email:</strong> <a href="#">tricia.palomino@gmail.com</a></li>
+        <li><strong>Github:</strong> <a href="#">@tpalo512</a></li>
+        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+      </ul>
+    </aside>
+  </main>
+
+</body>
+
+</html>
